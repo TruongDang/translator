@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3E24D3524B169160066E130 /* Translator.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = F3E24D3424B169160066E130 /* Translator.entitlements */; };
+		F3E24D3724B169160066E130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D3624B169160066E130 /* AppDelegate.swift */; };
+		F3E24D3A24B169160066E130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E24D3824B169160066E130 /* Main.storyboard */; };
+		F3E24D3C24B169160066E130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D3B24B169160066E130 /* ViewController.swift */; };
+		F3E24D3E24B169180066E130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E24D3D24B169180066E130 /* Assets.xcassets */; };
+		F3E24D4924B169190066E130 /* TranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D4824B169190066E130 /* TranslatorTests.swift */; };
+		F3E24D5424B169190066E130 /* TranslatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D5324B169190066E130 /* TranslatorUITests.swift */; };
+		F3E24D5B24B169190066E130 /* Translator Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F3E24D5A24B169190066E130 /* Translator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3E24D6024B169190066E130 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E24D5F24B169190066E130 /* Cocoa.framework */; };
+		F3E24D6324B169190066E130 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D6224B169190066E130 /* SafariExtensionHandler.swift */; };
+		F3E24D6524B169190066E130 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D6424B169190066E130 /* SafariExtensionViewController.swift */; };
+		F3E24D6824B169190066E130 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3E24D6624B169190066E130 /* SafariExtensionViewController.xib */; };
+		F3E24D6B24B169190066E130 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = F3E24D6A24B169190066E130 /* script.js */; };
+		F3E24D6D24B169190066E130 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F3E24D6C24B169190066E130 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3E24D4524B169190066E130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3E24D2924B169150066E130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3E24D3024B169160066E130;
+			remoteInfo = Translator;
+		};
+		F3E24D5024B169190066E130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3E24D2924B169150066E130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3E24D3024B169160066E130;
+			remoteInfo = Translator;
+		};
+		F3E24D5C24B169190066E130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3E24D2924B169150066E130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3E24D5924B169190066E130;
+			remoteInfo = "Translator Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3E24D7424B169190066E130 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F3E24D5B24B169190066E130 /* Translator Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F3E24D3124B169160066E130 /* Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E24D3424B169160066E130 /* Translator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Translator.entitlements; sourceTree = "<group>"; };
+		F3E24D3624B169160066E130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3E24D3924B169160066E130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3E24D3B24B169160066E130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3E24D3D24B169180066E130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E24D3F24B169180066E130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E24D4424B169180066E130 /* TranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E24D4824B169190066E130 /* TranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorTests.swift; sourceTree = "<group>"; };
+		F3E24D4A24B169190066E130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E24D4F24B169190066E130 /* TranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E24D5324B169190066E130 /* TranslatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorUITests.swift; sourceTree = "<group>"; };
+		F3E24D5524B169190066E130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E24D5A24B169190066E130 /* Translator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Translator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E24D5F24B169190066E130 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F3E24D6224B169190066E130 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		F3E24D6424B169190066E130 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		F3E24D6724B169190066E130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		F3E24D6924B169190066E130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E24D6A24B169190066E130 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		F3E24D6C24B169190066E130 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		F3E24D6E24B169190066E130 /* Translator_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Translator_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E24D2E24B169160066E130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D4124B169180066E130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D4C24B169190066E130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D5724B169190066E130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E24D6024B169190066E130 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3E24D2824B169150066E130 = {
+			isa = PBXGroup;
+			children = (
+				F3E24D3324B169160066E130 /* Translator */,
+				F3E24D4724B169190066E130 /* TranslatorTests */,
+				F3E24D5224B169190066E130 /* TranslatorUITests */,
+				F3E24D6124B169190066E130 /* Translator Extension */,
+				F3E24D5E24B169190066E130 /* Frameworks */,
+				F3E24D3224B169160066E130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E24D3224B169160066E130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E24D3124B169160066E130 /* Translator.app */,
+				F3E24D4424B169180066E130 /* TranslatorTests.xctest */,
+				F3E24D4F24B169190066E130 /* TranslatorUITests.xctest */,
+				F3E24D5A24B169190066E130 /* Translator Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E24D3324B169160066E130 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				F3E24D3424B169160066E130 /* Translator.entitlements */,
+				F3E24D3624B169160066E130 /* AppDelegate.swift */,
+				F3E24D3824B169160066E130 /* Main.storyboard */,
+				F3E24D3B24B169160066E130 /* ViewController.swift */,
+				F3E24D3D24B169180066E130 /* Assets.xcassets */,
+				F3E24D3F24B169180066E130 /* Info.plist */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		F3E24D4724B169190066E130 /* TranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3E24D4824B169190066E130 /* TranslatorTests.swift */,
+				F3E24D4A24B169190066E130 /* Info.plist */,
+			);
+			path = TranslatorTests;
+			sourceTree = "<group>";
+		};
+		F3E24D5224B169190066E130 /* TranslatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3E24D5324B169190066E130 /* TranslatorUITests.swift */,
+				F3E24D5524B169190066E130 /* Info.plist */,
+			);
+			path = TranslatorUITests;
+			sourceTree = "<group>";
+		};
+		F3E24D5E24B169190066E130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E24D5F24B169190066E130 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E24D6124B169190066E130 /* Translator Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F3E24D6224B169190066E130 /* SafariExtensionHandler.swift */,
+				F3E24D6424B169190066E130 /* SafariExtensionViewController.swift */,
+				F3E24D6624B169190066E130 /* SafariExtensionViewController.xib */,
+				F3E24D6924B169190066E130 /* Info.plist */,
+				F3E24D6A24B169190066E130 /* script.js */,
+				F3E24D6C24B169190066E130 /* ToolbarItemIcon.pdf */,
+				F3E24D6E24B169190066E130 /* Translator_Extension.entitlements */,
+			);
+			path = "Translator Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E24D3024B169160066E130 /* Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E24D7524B169190066E130 /* Build configuration list for PBXNativeTarget "Translator" */;
+			buildPhases = (
+				F3E24D2D24B169160066E130 /* Sources */,
+				F3E24D2E24B169160066E130 /* Frameworks */,
+				F3E24D2F24B169160066E130 /* Resources */,
+				F3E24D7424B169190066E130 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3E24D5D24B169190066E130 /* PBXTargetDependency */,
+			);
+			name = Translator;
+			productName = Translator;
+			productReference = F3E24D3124B169160066E130 /* Translator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3E24D4324B169180066E130 /* TranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E24D7824B169190066E130 /* Build configuration list for PBXNativeTarget "TranslatorTests" */;
+			buildPhases = (
+				F3E24D4024B169180066E130 /* Sources */,
+				F3E24D4124B169180066E130 /* Frameworks */,
+				F3E24D4224B169180066E130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3E24D4624B169190066E130 /* PBXTargetDependency */,
+			);
+			name = TranslatorTests;
+			productName = TranslatorTests;
+			productReference = F3E24D4424B169180066E130 /* TranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3E24D4E24B169190066E130 /* TranslatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E24D7B24B169190066E130 /* Build configuration list for PBXNativeTarget "TranslatorUITests" */;
+			buildPhases = (
+				F3E24D4B24B169190066E130 /* Sources */,
+				F3E24D4C24B169190066E130 /* Frameworks */,
+				F3E24D4D24B169190066E130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3E24D5124B169190066E130 /* PBXTargetDependency */,
+			);
+			name = TranslatorUITests;
+			productName = TranslatorUITests;
+			productReference = F3E24D4F24B169190066E130 /* TranslatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F3E24D5924B169190066E130 /* Translator Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E24D7124B169190066E130 /* Build configuration list for PBXNativeTarget "Translator Extension" */;
+			buildPhases = (
+				F3E24D5624B169190066E130 /* Sources */,
+				F3E24D5724B169190066E130 /* Frameworks */,
+				F3E24D5824B169190066E130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Translator Extension";
+			productName = "Translator Extension";
+			productReference = F3E24D5A24B169190066E130 /* Translator Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E24D2924B169150066E130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Đặng Văn Trường";
+				TargetAttributes = {
+					F3E24D3024B169160066E130 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F3E24D4324B169180066E130 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F3E24D3024B169160066E130;
+					};
+					F3E24D4E24B169190066E130 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F3E24D3024B169160066E130;
+					};
+					F3E24D5924B169190066E130 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F3E24D2C24B169150066E130 /* Build configuration list for PBXProject "Translator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3E24D2824B169150066E130;
+			productRefGroup = F3E24D3224B169160066E130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E24D3024B169160066E130 /* Translator */,
+				F3E24D4324B169180066E130 /* TranslatorTests */,
+				F3E24D4E24B169190066E130 /* TranslatorUITests */,
+				F3E24D5924B169190066E130 /* Translator Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E24D2F24B169160066E130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E24D3524B169160066E130 /* Translator.entitlements in Resources */,
+				F3E24D3E24B169180066E130 /* Assets.xcassets in Resources */,
+				F3E24D3A24B169160066E130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D4224B169180066E130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D4D24B169190066E130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D5824B169190066E130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E24D6D24B169190066E130 /* ToolbarItemIcon.pdf in Resources */,
+				F3E24D6824B169190066E130 /* SafariExtensionViewController.xib in Resources */,
+				F3E24D6B24B169190066E130 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E24D2D24B169160066E130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E24D3C24B169160066E130 /* ViewController.swift in Sources */,
+				F3E24D3724B169160066E130 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D4024B169180066E130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E24D4924B169190066E130 /* TranslatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D4B24B169190066E130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E24D5424B169190066E130 /* TranslatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E24D5624B169190066E130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E24D6524B169190066E130 /* SafariExtensionViewController.swift in Sources */,
+				F3E24D6324B169190066E130 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3E24D4624B169190066E130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3E24D3024B169160066E130 /* Translator */;
+			targetProxy = F3E24D4524B169190066E130 /* PBXContainerItemProxy */;
+		};
+		F3E24D5124B169190066E130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3E24D3024B169160066E130 /* Translator */;
+			targetProxy = F3E24D5024B169190066E130 /* PBXContainerItemProxy */;
+		};
+		F3E24D5D24B169190066E130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3E24D5924B169190066E130 /* Translator Extension */;
+			targetProxy = F3E24D5C24B169190066E130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3E24D3824B169160066E130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E24D3924B169160066E130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3E24D6624B169190066E130 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E24D6724B169190066E130 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3E24D6F24B169190066E130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3E24D7024B169190066E130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F3E24D7224B169190066E130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Translator Extension/Translator_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Translator Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "example.truongdv.translator-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F3E24D7324B169190066E130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Translator Extension/Translator_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Translator Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "example.truongdv.translator-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F3E24D7624B169190066E130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Translator/Translator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Translator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F3E24D7724B169190066E130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Translator/Translator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Translator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F3E24D7924B169190066E130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TranslatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Translator.app/Contents/MacOS/Translator";
+			};
+			name = Debug;
+		};
+		F3E24D7A24B169190066E130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TranslatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translator-tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Translator.app/Contents/MacOS/Translator";
+			};
+			name = Release;
+		};
+		F3E24D7C24B169190066E130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TranslatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translator-uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Translator;
+			};
+			name = Debug;
+		};
+		F3E24D7D24B169190066E130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TranslatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translator-uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Translator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E24D2C24B169150066E130 /* Build configuration list for PBXProject "Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E24D6F24B169190066E130 /* Debug */,
+				F3E24D7024B169190066E130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E24D7124B169190066E130 /* Build configuration list for PBXNativeTarget "Translator Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E24D7224B169190066E130 /* Debug */,
+				F3E24D7324B169190066E130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E24D7524B169190066E130 /* Build configuration list for PBXNativeTarget "Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E24D7624B169190066E130 /* Debug */,
+				F3E24D7724B169190066E130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E24D7824B169190066E130 /* Build configuration list for PBXNativeTarget "TranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E24D7924B169190066E130 /* Debug */,
+				F3E24D7A24B169190066E130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E24D7B24B169190066E130 /* Build configuration list for PBXNativeTarget "TranslatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E24D7C24B169190066E130 /* Debug */,
+				F3E24D7D24B169190066E130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E24D2924B169150066E130 /* Project object */;
+}
