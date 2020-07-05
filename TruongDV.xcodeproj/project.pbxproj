@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F323CA7524B21EA700D46025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323CA7424B21EA700D46025 /* AppDelegate.swift */; };
+		F323CA7724B21EA700D46025 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323CA7624B21EA700D46025 /* Document.swift */; };
+		F323CA7A24B21EA700D46025 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = F323CA7824B21EA700D46025 /* Document.xib */; };
+		F323CA7C24B21EA900D46025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F323CA7B24B21EA900D46025 /* Assets.xcassets */; };
+		F323CA7F24B21EA900D46025 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F323CA7D24B21EA900D46025 /* MainMenu.xib */; };
+		F323CA8B24B21EA900D46025 /* TruongDVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323CA8A24B21EA900D46025 /* TruongDVTests.swift */; };
+		F323CA9624B21EAA00D46025 /* TruongDVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323CA9524B21EAA00D46025 /* TruongDVUITests.swift */; };
+		F323CAAA24B21ECB00D46025 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F323CAA924B21ECB00D46025 /* Cocoa.framework */; };
+		F323CAAD24B21ECB00D46025 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323CAAC24B21ECB00D46025 /* SafariExtensionHandler.swift */; };
+		F323CAAF24B21ECB00D46025 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323CAAE24B21ECB00D46025 /* SafariExtensionViewController.swift */; };
+		F323CAB224B21ECB00D46025 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F323CAB024B21ECB00D46025 /* SafariExtensionViewController.xib */; };
+		F323CAB524B21ECB00D46025 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = F323CAB424B21ECB00D46025 /* script.js */; };
+		F323CAB724B21ECB00D46025 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F323CAB624B21ECB00D46025 /* ToolbarItemIcon.pdf */; };
+		F323CABB24B21ECB00D46025 /* Translator.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F323CAA724B21ECB00D46025 /* Translator.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F323CA8724B21EA900D46025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F323CA6924B21EA700D46025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F323CA7024B21EA700D46025;
+			remoteInfo = TruongDV;
+		};
+		F323CA9224B21EAA00D46025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F323CA6924B21EA700D46025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F323CA7024B21EA700D46025;
+			remoteInfo = TruongDV;
+		};
+		F323CAB924B21ECB00D46025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F323CA6924B21EA700D46025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F323CAA624B21ECB00D46025;
+			remoteInfo = Translator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F323CABF24B21ECB00D46025 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F323CABB24B21ECB00D46025 /* Translator.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F323CA7124B21EA700D46025 /* TruongDV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruongDV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F323CA7424B21EA700D46025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F323CA7624B21EA700D46025 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		F323CA7924B21EA700D46025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		F323CA7B24B21EA900D46025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F323CA7E24B21EA900D46025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F323CA8024B21EA900D46025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F323CA8124B21EA900D46025 /* TruongDV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TruongDV.entitlements; sourceTree = "<group>"; };
+		F323CA8624B21EA900D46025 /* TruongDVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruongDVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F323CA8A24B21EA900D46025 /* TruongDVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruongDVTests.swift; sourceTree = "<group>"; };
+		F323CA8C24B21EA900D46025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F323CA9124B21EAA00D46025 /* TruongDVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruongDVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F323CA9524B21EAA00D46025 /* TruongDVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruongDVUITests.swift; sourceTree = "<group>"; };
+		F323CA9724B21EAA00D46025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F323CAA724B21ECB00D46025 /* Translator.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Translator.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F323CAA924B21ECB00D46025 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F323CAAC24B21ECB00D46025 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		F323CAAE24B21ECB00D46025 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		F323CAB124B21ECB00D46025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		F323CAB324B21ECB00D46025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F323CAB424B21ECB00D46025 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		F323CAB624B21ECB00D46025 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		F323CAB824B21ECB00D46025 /* Translator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Translator.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F323CA6E24B21EA700D46025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CA8324B21EA900D46025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CA8E24B21EAA00D46025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CAA424B21ECB00D46025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323CAAA24B21ECB00D46025 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F323CA6824B21EA700D46025 = {
+			isa = PBXGroup;
+			children = (
+				F323CA7324B21EA700D46025 /* TruongDV */,
+				F323CA8924B21EA900D46025 /* TruongDVTests */,
+				F323CA9424B21EAA00D46025 /* TruongDVUITests */,
+				F323CAAB24B21ECB00D46025 /* Translator */,
+				F323CAA824B21ECB00D46025 /* Frameworks */,
+				F323CA7224B21EA700D46025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F323CA7224B21EA700D46025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F323CA7124B21EA700D46025 /* TruongDV.app */,
+				F323CA8624B21EA900D46025 /* TruongDVTests.xctest */,
+				F323CA9124B21EAA00D46025 /* TruongDVUITests.xctest */,
+				F323CAA724B21ECB00D46025 /* Translator.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F323CA7324B21EA700D46025 /* TruongDV */ = {
+			isa = PBXGroup;
+			children = (
+				F323CA7424B21EA700D46025 /* AppDelegate.swift */,
+				F323CA7624B21EA700D46025 /* Document.swift */,
+				F323CA7824B21EA700D46025 /* Document.xib */,
+				F323CA7B24B21EA900D46025 /* Assets.xcassets */,
+				F323CA7D24B21EA900D46025 /* MainMenu.xib */,
+				F323CA8024B21EA900D46025 /* Info.plist */,
+				F323CA8124B21EA900D46025 /* TruongDV.entitlements */,
+			);
+			path = TruongDV;
+			sourceTree = "<group>";
+		};
+		F323CA8924B21EA900D46025 /* TruongDVTests */ = {
+			isa = PBXGroup;
+			children = (
+				F323CA8A24B21EA900D46025 /* TruongDVTests.swift */,
+				F323CA8C24B21EA900D46025 /* Info.plist */,
+			);
+			path = TruongDVTests;
+			sourceTree = "<group>";
+		};
+		F323CA9424B21EAA00D46025 /* TruongDVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F323CA9524B21EAA00D46025 /* TruongDVUITests.swift */,
+				F323CA9724B21EAA00D46025 /* Info.plist */,
+			);
+			path = TruongDVUITests;
+			sourceTree = "<group>";
+		};
+		F323CAA824B21ECB00D46025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F323CAA924B21ECB00D46025 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F323CAAB24B21ECB00D46025 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				F323CAAC24B21ECB00D46025 /* SafariExtensionHandler.swift */,
+				F323CAAE24B21ECB00D46025 /* SafariExtensionViewController.swift */,
+				F323CAB024B21ECB00D46025 /* SafariExtensionViewController.xib */,
+				F323CAB324B21ECB00D46025 /* Info.plist */,
+				F323CAB424B21ECB00D46025 /* script.js */,
+				F323CAB624B21ECB00D46025 /* ToolbarItemIcon.pdf */,
+				F323CAB824B21ECB00D46025 /* Translator.entitlements */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F323CA7024B21EA700D46025 /* TruongDV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F323CA9A24B21EAA00D46025 /* Build configuration list for PBXNativeTarget "TruongDV" */;
+			buildPhases = (
+				F323CA6D24B21EA700D46025 /* Sources */,
+				F323CA6E24B21EA700D46025 /* Frameworks */,
+				F323CA6F24B21EA700D46025 /* Resources */,
+				F323CABF24B21ECB00D46025 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F323CABA24B21ECB00D46025 /* PBXTargetDependency */,
+			);
+			name = TruongDV;
+			productName = TruongDV;
+			productReference = F323CA7124B21EA700D46025 /* TruongDV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F323CA8524B21EA900D46025 /* TruongDVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F323CA9D24B21EAA00D46025 /* Build configuration list for PBXNativeTarget "TruongDVTests" */;
+			buildPhases = (
+				F323CA8224B21EA900D46025 /* Sources */,
+				F323CA8324B21EA900D46025 /* Frameworks */,
+				F323CA8424B21EA900D46025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F323CA8824B21EA900D46025 /* PBXTargetDependency */,
+			);
+			name = TruongDVTests;
+			productName = TruongDVTests;
+			productReference = F323CA8624B21EA900D46025 /* TruongDVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F323CA9024B21EAA00D46025 /* TruongDVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F323CAA024B21EAA00D46025 /* Build configuration list for PBXNativeTarget "TruongDVUITests" */;
+			buildPhases = (
+				F323CA8D24B21EAA00D46025 /* Sources */,
+				F323CA8E24B21EAA00D46025 /* Frameworks */,
+				F323CA8F24B21EAA00D46025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F323CA9324B21EAA00D46025 /* PBXTargetDependency */,
+			);
+			name = TruongDVUITests;
+			productName = TruongDVUITests;
+			productReference = F323CA9124B21EAA00D46025 /* TruongDVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F323CAA624B21ECB00D46025 /* Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F323CABC24B21ECB00D46025 /* Build configuration list for PBXNativeTarget "Translator" */;
+			buildPhases = (
+				F323CAA324B21ECB00D46025 /* Sources */,
+				F323CAA424B21ECB00D46025 /* Frameworks */,
+				F323CAA524B21ECB00D46025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Translator;
+			productName = Translator;
+			productReference = F323CAA724B21ECB00D46025 /* Translator.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F323CA6924B21EA700D46025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Đặng Văn Trường";
+				TargetAttributes = {
+					F323CA7024B21EA700D46025 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F323CA8524B21EA900D46025 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F323CA7024B21EA700D46025;
+					};
+					F323CA9024B21EAA00D46025 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F323CA7024B21EA700D46025;
+					};
+					F323CAA624B21ECB00D46025 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F323CA6C24B21EA700D46025 /* Build configuration list for PBXProject "TruongDV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F323CA6824B21EA700D46025;
+			productRefGroup = F323CA7224B21EA700D46025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F323CA7024B21EA700D46025 /* TruongDV */,
+				F323CA8524B21EA900D46025 /* TruongDVTests */,
+				F323CA9024B21EAA00D46025 /* TruongDVUITests */,
+				F323CAA624B21ECB00D46025 /* Translator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F323CA6F24B21EA700D46025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323CA7C24B21EA900D46025 /* Assets.xcassets in Resources */,
+				F323CA7A24B21EA700D46025 /* Document.xib in Resources */,
+				F323CA7F24B21EA900D46025 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CA8424B21EA900D46025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CA8F24B21EAA00D46025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CAA524B21ECB00D46025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323CAB724B21ECB00D46025 /* ToolbarItemIcon.pdf in Resources */,
+				F323CAB224B21ECB00D46025 /* SafariExtensionViewController.xib in Resources */,
+				F323CAB524B21ECB00D46025 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F323CA6D24B21EA700D46025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323CA7724B21EA700D46025 /* Document.swift in Sources */,
+				F323CA7524B21EA700D46025 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CA8224B21EA900D46025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323CA8B24B21EA900D46025 /* TruongDVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CA8D24B21EAA00D46025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323CA9624B21EAA00D46025 /* TruongDVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F323CAA324B21ECB00D46025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323CAAF24B21ECB00D46025 /* SafariExtensionViewController.swift in Sources */,
+				F323CAAD24B21ECB00D46025 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F323CA8824B21EA900D46025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F323CA7024B21EA700D46025 /* TruongDV */;
+			targetProxy = F323CA8724B21EA900D46025 /* PBXContainerItemProxy */;
+		};
+		F323CA9324B21EAA00D46025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F323CA7024B21EA700D46025 /* TruongDV */;
+			targetProxy = F323CA9224B21EAA00D46025 /* PBXContainerItemProxy */;
+		};
+		F323CABA24B21ECB00D46025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F323CAA624B21ECB00D46025 /* Translator */;
+			targetProxy = F323CAB924B21ECB00D46025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F323CA7824B21EA700D46025 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F323CA7924B21EA700D46025 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		F323CA7D24B21EA900D46025 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F323CA7E24B21EA900D46025 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F323CAB024B21ECB00D46025 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F323CAB124B21ECB00D46025 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F323CA9824B21EAA00D46025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F323CA9924B21EAA00D46025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F323CA9B24B21EAA00D46025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TruongDV/TruongDV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TruongDV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.TruongDV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F323CA9C24B21EAA00D46025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TruongDV/TruongDV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TruongDV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.TruongDV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F323CA9E24B21EAA00D46025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TruongDVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.TruongDVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruongDV.app/Contents/MacOS/TruongDV";
+			};
+			name = Debug;
+		};
+		F323CA9F24B21EAA00D46025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TruongDVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.TruongDVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruongDV.app/Contents/MacOS/TruongDV";
+			};
+			name = Release;
+		};
+		F323CAA124B21EAA00D46025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TruongDVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.TruongDVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TruongDV;
+			};
+			name = Debug;
+		};
+		F323CAA224B21EAA00D46025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TruongDVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.TruongDVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TruongDV;
+			};
+			name = Release;
+		};
+		F323CABD24B21ECB00D46025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Translator/Translator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Translator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.TruongDV.Translator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F323CABE24B21ECB00D46025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Translator/Translator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Translator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.TruongDV.Translator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F323CA6C24B21EA700D46025 /* Build configuration list for PBXProject "TruongDV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F323CA9824B21EAA00D46025 /* Debug */,
+				F323CA9924B21EAA00D46025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F323CA9A24B21EAA00D46025 /* Build configuration list for PBXNativeTarget "TruongDV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F323CA9B24B21EAA00D46025 /* Debug */,
+				F323CA9C24B21EAA00D46025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F323CA9D24B21EAA00D46025 /* Build configuration list for PBXNativeTarget "TruongDVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F323CA9E24B21EAA00D46025 /* Debug */,
+				F323CA9F24B21EAA00D46025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F323CAA024B21EAA00D46025 /* Build configuration list for PBXNativeTarget "TruongDVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F323CAA124B21EAA00D46025 /* Debug */,
+				F323CAA224B21EAA00D46025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F323CABC24B21ECB00D46025 /* Build configuration list for PBXNativeTarget "Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F323CABD24B21ECB00D46025 /* Debug */,
+				F323CABE24B21ECB00D46025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F323CA6924B21EA700D46025 /* Project object */;
+}
