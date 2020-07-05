@@ -14,7 +14,7 @@
 		F3E24D3E24B169180066E130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E24D3D24B169180066E130 /* Assets.xcassets */; };
 		F3E24D4924B169190066E130 /* TranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D4824B169190066E130 /* TranslatorTests.swift */; };
 		F3E24D5424B169190066E130 /* TranslatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D5324B169190066E130 /* TranslatorUITests.swift */; };
-		F3E24D5B24B169190066E130 /* Translator Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F3E24D5A24B169190066E130 /* Translator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3E24D5B24B169190066E130 /* Translator.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F3E24D5A24B169190066E130 /* Translator.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F3E24D6024B169190066E130 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E24D5F24B169190066E130 /* Cocoa.framework */; };
 		F3E24D6324B169190066E130 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D6224B169190066E130 /* SafariExtensionHandler.swift */; };
 		F3E24D6524B169190066E130 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E24D6424B169190066E130 /* SafariExtensionViewController.swift */; };
@@ -54,7 +54,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F3E24D5B24B169190066E130 /* Translator Extension.appex in Embed App Extensions */,
+				F3E24D5B24B169190066E130 /* Translator.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +75,7 @@
 		F3E24D4F24B169190066E130 /* TranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E24D5324B169190066E130 /* TranslatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorUITests.swift; sourceTree = "<group>"; };
 		F3E24D5524B169190066E130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3E24D5A24B169190066E130 /* Translator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Translator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E24D5A24B169190066E130 /* Translator.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Translator.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E24D5F24B169190066E130 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F3E24D6224B169190066E130 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		F3E24D6424B169190066E130 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 				F3E24D3124B169160066E130 /* Translator.app */,
 				F3E24D4424B169180066E130 /* TranslatorTests.xctest */,
 				F3E24D4F24B169190066E130 /* TranslatorUITests.xctest */,
-				F3E24D5A24B169190066E130 /* Translator Extension.appex */,
+				F3E24D5A24B169190066E130 /* Translator.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 			);
 			name = "Translator Extension";
 			productName = "Translator Extension";
-			productReference = F3E24D5A24B169190066E130 /* Translator Extension.appex */;
+			productReference = F3E24D5A24B169190066E130 /* Translator.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -554,7 +554,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "example.truongdv.translator-extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Translator;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -572,7 +572,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "example.truongdv.translator-extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Translator;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -651,7 +651,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translator-tests;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.truongdv.translator-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Translator.app/Contents/MacOS/Translator";
@@ -670,7 +670,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translator-uitests;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.truongdv.translator-uitests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = Translator;
@@ -689,7 +689,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = example.truongdv.translator-uitests;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.truongdv.translator-uitests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = Translator;
